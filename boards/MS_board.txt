@@ -1,0 +1,9 @@
+1
+   A| B| C| D| E
+5  r| b| s| g| k
+4   |  |  |  | p
+3   | B|  |  |  
+2  P|  |  |  |  
+1  K| G| S|  | R
+MiniWhite: K G S B R P 
+MiniBlack: k g s b r p 
