@@ -10,9 +10,57 @@ Professor: 顏士淨 (Shi-Jim Yen)
 Within the repository, you will find six main Python files for the six games below. 
 
 - Breakthrough
-- Connect6
 - Einstein 
 - Minishogi 
 - Othello8 
 - Othello10
+- Connect6
+
+## Setup
+In order to run the programs locally, follow the necessary steps below:
+
+1.  Download and install [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) - Python 3.5 or 3.6  
+2.  Create an environment and download pygame by running: "conda install -c cogsci pygame"
+3.  For the selected game, run the AI model and Python file simultaneously.
+
+## GUI
+
+### Breakthrough
+
+<p align="center">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/breakthrough_terminal.jpeg">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/breakthrough_GUI.jpeg">
+</p>
+
+### Einstein
+
+<p align="center">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/einstein_terminal.jpeg">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/einstein_GUI.jpeg">
+</p>
+
+### Minishogi
+
+<p align="center">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/minishogi_terminal.jpeg">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/minishogi_GUI.jpeg">
+</p>
+
+
+### Othello8
+
+<p align="center">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/othello8_terminal.jpeg">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/othello8_GUI.jpeg">
+</p>
+
+
+### Othello10
+
+<p align="center">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/othello10_terminal.jpeg">
+  <img height = 300 width = 500 src="https://github.com/Tylereck81/Polygame-/blob/main/Captures/othello10_GUI.jpeg">
+</p>
+
+
 
