@@ -141,7 +141,7 @@ def drawPieces(layout_file):
         for j in range(19):
             if layout_file[j][i]=='O':
                 screen.blit(enemy_piece,(i*squaresize+3+x_offset-20,j*squaresize+3+y_offset-20))
-                #position_list.append((i*squaresize+3+x_offset, j*squaresize+3+y_offset))
+                position_list.append((i*squaresize+3+x_offset, j*squaresize+3+y_offset))
             if layout_file[j][i]=='X':
                 screen.blit(player_piece,(i*squaresize+3+x_offset-20,j*squaresize+3+y_offset-20))
                 #position_list.append((i*squaresize+3+x_offset, j*squaresize+3+y_offset))
@@ -225,5 +225,7 @@ def run():
                 x,y = pygame.mouse.get_pos() 
                 position = determine_position(x,y)
                 print(position)
+                
+
 
         pygame.display.update()
